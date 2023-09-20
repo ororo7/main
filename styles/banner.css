@@ -1,6 +1,17 @@
 .banner{
-    background-color:rgb(255, 0, 208);
+    background-color:rgb(252, 7, 248);
     color: black;
     text-align: center;
     padding: 1em;
+}
+.banner__titulo{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 3em;
+}
+.banner__texto{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 1em 0;
+
 }
