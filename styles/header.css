@@ -22,7 +22,7 @@
         display: none;
         position: absolute;
         top: 100%;
-        width: 60vw;}
+        width: 100vw;}
 .container__botao:checked ~ .lista-menu{
         display: block;
         }
