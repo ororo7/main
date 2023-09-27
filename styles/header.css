@@ -18,11 +18,11 @@
           align-items: center;
         }
 .lista-menu{
-        background-color: hotpink;
+        background-color: rgb(254, 15, 210);
         display: none;
         position: absolute;
         top: 100%;
-        width: 15vw;}
+        width: 20vw;}
 .container__botao:checked ~ .lista-menu{
         display: block;
         }
