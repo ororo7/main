@@ -21,8 +21,8 @@
         background-color: rgb(254, 15, 210);
         display: none;
         position: absolute;
-        top: 110%;
-        width: 20vw;}
+        top: 100%;
+        width: 60vw;}
 .container__botao:checked ~ .lista-menu{
         display: block;
         }
