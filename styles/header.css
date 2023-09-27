@@ -18,6 +18,7 @@
           align-items: center;
         }
 .lista-menu{
+        background-color: hotpink;
         display: none;
         position: absolute;
         top: 100%;
