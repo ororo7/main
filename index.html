@@ -58,28 +58,39 @@
 
     </section>
     
-    <section class="carrossel">
-        <h2 class="carrossel__titulo">Nossos Carros</h2>
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">  <img src="" alt="">   </div>
-              <div class="swiper-slide">  <img src="" alt="">   </div>
-              <div class="swiper-slide">  <img src="" alt="">   </div>
-              ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-         
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-         
-           
-          </div>
+    <section class=".carrossel"
+    <h2 class="carrossel__titulo"> NOSSOS CARROS</h2>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+           <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src=" lexus.jpeg " alt=""></div>
+          <div class="swiper-slide"><img src="ferrari.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="BMW.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="LAMBORGHINI.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="MUSTANG.jpeg" alt=""></div>
+        
+          ...
+        </div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+                 
+      </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script&gt;>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script&gt;
+    <script> const swiper = new Swiper('.swiper ', {
+    spaceBetween: 100,
+    slidesPerView:3,
+    pagination:{
+        el:'.swiper-pagination',
+        type:'bullets',},
+    });
+    </script>
+    
     
 
 
