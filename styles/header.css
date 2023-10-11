@@ -30,7 +30,7 @@
         .lista-menu__titulo, .lista-menu__item{
             padding: 1em;                                                                                                                                                                                       
             background-color:#FF00FF ;}
-            .lista-menu__titulo{ color: #6e02ba  ;}
+        .lista-menu__titulo{ color: #6e02ba  ;}
             
             .lista-menu__link{
             background-image:linear-gradient(#EE82EE,#FF69B4);
